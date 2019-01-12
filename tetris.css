@@ -1,0 +1,59 @@
+.field {
+	width: 200px;
+	height: 400px ;
+	border-color: black;
+	border-style: solid;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url('background.png');
+}
+
+.hat {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.smallField {
+	float: left;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	border-style: outset;
+	border-width: 1px;
+}
+
+.start {
+	position: relative;
+	right: 1.5px;
+	width: 65px;
+	height: 25px;
+	background-color: green;
+	text-shadow: 1px 1px 1px yellow;
+	text-align: center;
+}
+
+.pause {
+	position: relative;
+	width: 65px;
+	height: 25px;
+	text-align: center;
+	background-color: yellow;
+	text-shadow: 1px 1px 1px green;
+}
+
+.buttons {
+	position: relative;
+	top: 5px;
+	text-align: center;
+}
+
+.restart {
+	position: relative;
+	left: 1.5px;
+	width: 65px;
+	height: 25px;
+	text-align: center;
+	background-color: yellow;
+	text-shadow: 1px 1px 1px green;
+}
